@@ -1,0 +1,24 @@
+{
+  "name": "chatapp",
+  "description": "Socket IO Getting Started",
+  "main": "server.js",
+  "authors": [
+    "Sandeep <sandy.wadhwa@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/sandywadhwa/chatApp",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/vendor",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "1.5.3",
+    "bootstrap": "^4.2.1",
+    "font-awesome": "^5.6.3",
+    "jquery": "^3.3.1"
+  }
+}

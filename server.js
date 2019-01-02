@@ -23,7 +23,6 @@ io.on('connection', function(socket){
 })
 
 
-
 httpServer.listen(port, function(){
   console.log('listening on *: '+port);
 });

@@ -7,3 +7,6 @@ socket.on('message-from-server', function(evt){
         greeting: 'Hello Server! I am New Client'
     })
 })
+
+var mod = angular.module('chatApp', []);
+

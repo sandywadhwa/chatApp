@@ -7,6 +7,7 @@ yarn-error.log*
 
 # Runtime data
 .vscode/
+public/vendor/
 pids
 *.pid
 *.seed

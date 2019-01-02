@@ -1,12 +1,15 @@
-var app = require('express')();
-var http = require('http').Server(app);
-
+var express = require('express');
+var app = express();
+var httpServer = require('http').Server(app);
+var io = require('socket.io')(httpServer)
 var port = 3000;
 
+app.use(express.static('public'))
+
 app.get('/', function(req, res){
-  res.send('<h1>Hello world</h1>');
+  res.sendFile('index.html');
 });
 
-http.listen(port, function(){
+httpServer.listen(port, function(){
   console.log('listening on *: '+port);
 });
